@@ -5,7 +5,7 @@ import os
 # ROW_LIMIT = 5000
 SUPERSET_WORKERS = 8 # for it to work in heroku basic/hobby dynos increase as you like
 
-SUPERSET_WEBSERVER_PORT = 80
+SUPERSET_WEBSERVER_PORT = os.getenv('PORT')
 SECRET_KEY = 'this-is-some-secret-key'
 
 #---------------------------------------------------------
