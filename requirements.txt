@@ -1,4 +1,7 @@
-gunicorn
-apache-superset
-psycopg2
+gunicorn==20.1.0
+apache-superset==1.2.0
+psycopg2==2.9.1
+werkzeug==0.16.1
+Pillow==8.3.0
+gevent==21.1.2
 apache-superset[cors]
