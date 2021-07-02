@@ -1,0 +1,3 @@
+gunicorn
+apache-superset
+psycopg2
