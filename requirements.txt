@@ -1,3 +1,4 @@
 gunicorn
 apache-superset
 psycopg2
+apache-superset[cors]
